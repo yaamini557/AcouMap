@@ -1,0 +1,85 @@
+﻿# ==============================================================================
+# AcouMap — Git Ignore Configuration
+# ==============================================================================
+
+# --- Node & Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.local
+.env.*.local
+*.secret
+credentials*
+
+# --- R & Shiny ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+# rsconnect contains deployment tokens and account metadata
+shiny_app/rsconnect/
+rsconnect/
+
+# --- SQLite & Database Locks ---
+*.db-shm
+*.db-wal
+*.sqlite-shm
+*.sqlite-wal
+
+# --- Runtime Reports & Test Artifacts ---
+models/test_*.joblib
+reports/*.pdf
+reports/*.txt
+reports/*.csv
+!reports/.gitkeep
+
+# --- Large Datasets (Hitachi MIMII raw files) ---
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# --- OS / Editor Generated ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
