@@ -1,0 +1,12 @@
+name: acoumap
+title: AcouMap — Acoustic Fan Health & Anomaly Monitoring System
+username: yaamini-vm
+account: yaamini-vm
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 18083642
+bundleId: 12645204
+url: https://yaamini-vm.shinyapps.io/acoumap/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
